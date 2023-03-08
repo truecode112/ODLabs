@@ -19,12 +19,16 @@
 }
 
 .mint-body-image {
-    width: 360px;
+    margin-right: 10%;
+    margin-left: 10%;
+    width: 80%;
     height: 500px;
     backdrop-filter: brightness(.1);
     background-color: black/100;
-    margin-right: auto;
-    margin-left: auto;
+}
+
+.mint-text {
+    margin-right: 64px;
 }
 
 .footer {
@@ -167,6 +171,11 @@
 
     .footer-middle-link {
         flex-basis: 100%;
+    }
+
+    .mint-text {
+        margin-left: auto;
+        margin-right: auto;
     }
 
     .mint-body-image {

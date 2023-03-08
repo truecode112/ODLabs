@@ -42,8 +42,8 @@ function Rewards() {
             <div className='w-[160px] items-end flex'>
               <div className='h-[120px] ml-8'>
                 <div className='font-bold text-3xl text-center'>Wallet</div>
-                <button className='text-2xl font-semibold outline outline-2 outline-black rounded-full w-[150px] mt-2'>Disconnect</button>
-                <button className='text-2xl font-semibold outline outline-2 outline-black rounded-full w-[150px] mt-2'>Reconnect</button>
+                <button className='text-2xl font-semibold outline outline-2 outline-black rounded-[18px] w-[150px] mt-2'>Disconnect</button>
+                <button className='text-2xl font-semibold outline outline-2 outline-black rounded-[18px] w-[150px] mt-2'>Reconnect</button>
               </div>
             </div>
             
@@ -54,7 +54,7 @@ function Rewards() {
               <div className='text-xl font-bold text-white'>0xd3472733734y39483843483</div>
               <div className='text-xl font-bold mb-4'>SCORE - 18</div>
               <button className='text-xl font-bold outline outline-2 outline-black w-[120px] h-[32px]'>4.3ETH</button>
-              <button className='text-xl font-semibold outline outline-2 outline-black rounded-full w-[160px] h-[32px] ml-4'>CLAIM REWARD</button>
+              <button className='text-xl font-semibold outline outline-2 outline-black rounded-[18px] w-[160px] h-[32px] ml-4'>CLAIM REWARD</button>
             </div>
             <div className='w-1/2'>
               <div className='padding-40'>
@@ -75,7 +75,7 @@ function Rewards() {
                   <div className='text-xl font-bold text-white'>.0333 ETH</div>
                 </div>
                 <div className='text-2xl font-bold text-white mt-8'>.0999 ETH Available</div>
-                <button className='text-2xl font-bold outline outline-2 outline-black rounded-full w-[200px] h-[40px] ml-4'>CLAIM REWARD</button>
+                <button className='text-2xl font-bold outline outline-2 outline-black rounded-[18px] w-[200px] h-[40px] ml-4'>CLAIM REWARD</button>
               </div>
             </div>
           </div>

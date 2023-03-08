@@ -47,7 +47,7 @@ function Mint() {
             <div className='basis-1/3 ml-4'>
               <div className='text-div-left font-bold text-6xl'>LULU</div>
               <div className='text-div-left font-bold text-4xl'>1 of 10,000</div>
-              <div className='text-div-left mt-16 text-lg font-semibold	max-w-[500px] min-w-[300px] mx-auto'>
+              <div className='text-div-left mt-16 text-lg font-semibold	max-w-[500px] min-w-[300px] mint-text'>
                 <div>LULU Monster</div>
                 <div>
                   The first on chain "Mixed Reality" collectible.
@@ -59,7 +59,7 @@ function Mint() {
                   A new journey awaits you!
                 </div>
                 <div className='items-end'>
-                  <button className='bg-[#4d4d4d] rounded-lg w-[170px] h-[70px] text-white text-3xl'>MINT</button>
+                  <button className='bg-[#4d4d4d] rounded-lg w-[170px] h-[70px] text-white text-3xl mt-8'>MINT</button>
                 </div>
               </div>
             </div>

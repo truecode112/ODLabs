@@ -10,15 +10,15 @@ function Tryme() {
         </div>
         <div className='mx-4'>
           <div className='tryme-response mt-16 w-full'>
-            <div className='basis-1/3 min-w-[300px] max-w-[600px]'>
-              <img src='/qrcode.png' className='mx-auto rounded-xl mt-16'></img>
-              <img src='/img1.png' className='mx-auto rounded-xl mt-16'></img>
+            <div className='basis-1/3 mx-auto min-w-[300px] max-w-[600px]'>
+              <img src='/qrcode.png' className='mx-auto rounded-[16px] mt-24'></img>
+              <img src='/img1.png' className='mx-auto rounded-[16px] mt-24'></img>
             </div>
-            <div className='basis-1/3 min-w-[300px] max-w-[600px]'>
-              <img src='/qrcode.png' className='mx-auto rounded-xl mt-16'></img>
-              <img src='/img2.png' className='mx-auto rounded-xl mt-16'></img>
+            <div className='basis-1/3 mx-auto min-w-[300px] max-w-[600px]'>
+              <img src='/qrcode.png' className='mx-auto rounded-[16px] mt-24'></img>
+              <img src='/img2.png' className='mx-auto rounded-[16px] mt-24'></img>
             </div>
-            <div className='basis-1/3 min-w-[300px] max-w-[600px] min-h-[400px]  p-[60px] bg-black mx-8' />
+            <div className='basis-1/3 min-w-[300px] max-w-[450px] min-h-[400px]  p-[80px] bg-black mx-auto' />
           </div>
         </div>
     </>
