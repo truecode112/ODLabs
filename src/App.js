@@ -5,6 +5,7 @@ import Rewards from "./component/Rewards";
 import Tryme from "./component/Tryme";
 import Navbar from "./component/Navbar";
 import Footer from "./component/Footer";
+import Main from "./component/Main";
 
 function App() {
   return (
@@ -12,7 +13,7 @@ function App() {
       <Navbar />
       
       <Routes >
-        <Route path="/" element={ <Mint /> } />
+        <Route path="/" element={ <Main /> } />
         <Route path="/mint" element={ <Mint /> } />
         <Route path="/tryme" element={ <Tryme /> } />
         <Route path="/rewards" element={ <Rewards /> } />

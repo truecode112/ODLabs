@@ -27,6 +27,29 @@
     background-color: black/100;
 }
 
+.main-body{
+  display: flex;
+  flex-wrap: nowrap;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 40px;
+  min-height: calc(100vh - 358px);
+}
+
+.main-body-background {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  backdrop-filter: brightness(.1);
+  background-color: black/100;
+}
+
+.play-button {
+  width: 64px;
+  height: 64px;
+}
+
 .mint-text {
     margin-right: 64px;
 }
