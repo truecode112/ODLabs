@@ -3,7 +3,7 @@ import './responsive.css'
 
 function Footer() {
   return (
-    <div className='footer'>
+    <div className='footer mt-3'>
         <div className='footer-body'>
             <div className='width-33-2'>
                 <img src = 'odlabs.png'></img>

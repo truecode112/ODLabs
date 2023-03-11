@@ -1,4 +1,4 @@
-import {Routes, Route} from "react-router-dom";
+import { Routes, Route } from "react-router-dom";
 
 import Mint from "./component/Mint";
 import Rewards from "./component/Rewards";
@@ -11,12 +11,12 @@ function App() {
   return (
     <div className="backgroundImage bg-fixed">
       <Navbar />
-      
+
       <Routes >
-        <Route path="/" element={ <Main /> } />
-        <Route path="/mint" element={ <Mint /> } />
-        <Route path="/tryme" element={ <Tryme /> } />
-        <Route path="/rewards" element={ <Rewards /> } />
+        <Route path="/" element={<Main />} />
+        <Route path="/mint" element={<Mint />} />
+        <Route path="/tryme" element={<Tryme />} />
+        <Route path="/rewards" element={<Rewards />} />
       </Routes>
 
       <Footer></Footer>
